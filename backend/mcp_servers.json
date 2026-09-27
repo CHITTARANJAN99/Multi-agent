@@ -1,0 +1,64 @@
+{
+  "mcpServers": {
+    "travel-mcp": {
+      "command": "python",
+      "args": ["app/mcp/servers/travel.py"],
+      "env": {}
+    },
+    "hotel-mcp": {
+      "command": "python",
+      "args": ["app/mcp/servers/hotel.py"],
+      "env": {}
+    },
+    "weather-mcp": {
+      "command": "python",
+      "args": ["app/mcp/servers/weather.py"],
+      "env": {}
+    },
+    "maps-mcp": {
+      "command": "python",
+      "args": ["app/mcp/servers/maps.py"],
+      "env": {}
+    },
+    "calendar-mcp": {
+      "command": "python",
+      "args": ["app/mcp/servers/calendar_server.py"],
+      "env": {}
+    },
+    "email-mcp": {
+      "command": "python",
+      "args": ["app/mcp/servers/email_server.py"],
+      "env": {}
+    },
+    "shopping-mcp": {
+      "command": "python",
+      "args": ["app/mcp/servers/shopping.py"],
+      "env": {}
+    },
+    "browser-mcp": {
+      "command": "python",
+      "args": ["app/mcp/servers/browser.py"],
+      "env": {}
+    },
+    "filesystem-mcp": {
+      "command": "python",
+      "args": ["app/mcp/servers/filesystem.py"],
+      "env": {}
+    },
+    "pdf-mcp": {
+      "command": "python",
+      "args": ["app/mcp/servers/pdf.py"],
+      "env": {}
+    },
+    "github-mcp": {
+      "command": "python",
+      "args": ["app/mcp/servers/github.py"],
+      "env": {}
+    },
+    "database-mcp": {
+      "command": "python",
+      "args": ["app/mcp/servers/database.py"],
+      "env": {}
+    }
+  }
+}
