@@ -54,9 +54,9 @@ class Settings(BaseSettings):
     ANTHROPIC_MODEL: str = "claude-3-5-sonnet-20240620"
 
     GEMINI_API_KEY: Optional[str] = None
-    GEMINI_MODEL: str = "gemini-1.5-pro"
+    GEMINI_MODEL: str = "gemini-2.5-flash"
 
-    DEFAULT_PROVIDER: str = "openai"  # "openai" | "anthropic" | "gemini"
+    DEFAULT_PROVIDER: str = "gemini"  # "openai" | "anthropic" | "gemini"
 
     # Model Context Protocol (MCP) Configuration
     MCP_CONFIG_PATH: str = "mcp_servers.json"
